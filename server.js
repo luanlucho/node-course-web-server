@@ -57,7 +57,7 @@ app.get('/projects', (req, res) => {
     res.render('projects.hbs', {
         pageTitle: 'Projects page',
         pageDescription: 'These are my projects'
-    })
+    });
 });
 
 app.listen(port, () => {
